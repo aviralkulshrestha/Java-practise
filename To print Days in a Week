@@ -27,5 +27,5 @@ public class test {
         }
     }
     public static void main(String[] args){
-    printDayofTheWeek(20);}
+    printDayofTheWeek(2);}
 }
