@@ -1,0 +1,15 @@
+public class test {
+    public static double calcint(double amt, double interest) {
+        return (amt * (interest / 100));
+    }
+
+    public static void main(String[] args) {
+        //double r=calcint(1000, 2.0);
+        //System.out.println(r);
+        for (int i = 2; i <= 8; i++) {
+            double r = calcint(10000, i);
+
+            System.out.println(r);
+        }
+    }
+}
